@@ -7,7 +7,7 @@ if (!$conn)
 
 $resultado = pg_query($conn, $sql);
 if (!$resultado)
-die("erro no  SQL.<br />";)
+die("erro no  SQL.<br />");
  pg_close($conn);
 return $resultado;
 
